@@ -1,0 +1,19 @@
+{
+	"da124df9-e0ed-4758-8c7a-154196296d3c": {
+		"name": "Hello world",
+		"status": "in progress",
+		"createdAt": "2025-04-08T15:37:24.267Z",
+		"updatedAt": "2025-04-08T15:37:35.993Z"
+	},
+	"a8229806-61cd-485d-87da-ac8d911247d4": {
+		"name": "This task was already finished",
+		"status": "done",
+		"createdAt": "2025-04-08T15:37:59.547Z",
+		"updatedAt": "2025-04-08T16:20:35.176Z"
+	},
+	"c66bc7d9-a189-4421-b4f0-f8325a3cfb40": {
+		"name": "Hello from my first CLI tool",
+		"status": "in progress",
+		"createdAt": "2025-04-08T16:20:01.868Z"
+	}
+}

@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/TonyHdez-Pi/TaskTrackerCLI/issues"
   },
-  "homepage": "https://github.com/TonyHdez-Pi/TaskTrackerCLI#readme"
+  "homepage": "https://github.com/TonyHdez-Pi/TaskTrackerCLI#readme",
+  "dependencies": {
+    "uuid": "^11.1.0"
+  }
 }
