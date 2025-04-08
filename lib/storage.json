@@ -15,5 +15,10 @@
 		"name": "Hello from my first CLI tool",
 		"status": "in progress",
 		"createdAt": "2025-04-08T16:20:01.868Z"
+	},
+	"8410890d-aef3-48dc-a12a-d8d8f925ea4c": {
+		"name": "todo",
+		"status": "todo",
+		"createdAt": "2025-04-08T16:36:13.863Z"
 	}
 }
