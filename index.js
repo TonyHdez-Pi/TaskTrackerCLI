@@ -16,16 +16,14 @@ const {
 } = require("./lib/task.js");
 
 console.log("Task Tracker CLI");
-console.log("Write help to see the command list");
 
-if (process.argv[2].toLowerCase() === "help") {
-	console.log("Command List:");
-	console.log("Command: add taskToAdd");
-	console.log("Command: update id taskToUpdate");
-	console.log("Command: delete id");
-	console.log("Command: mark-done id");
-	console.log("Command: list");
-}
+console.log("Command List:");
+console.log("Command: add taskToAdd");
+console.log("Command: update id taskToUpdate");
+console.log("Command: delete id");
+console.log("Command: mark-progress id");
+console.log("Command: mark-done id");
+console.log("Command: list");
 
 switch (process.argv[2]) {
 	case "add": {
@@ -50,11 +48,11 @@ switch (process.argv[2]) {
 		break;
 	}
 	case "list": {
-		listTask();
+		listTask(process.argv[3]);
 		break;
 	}
 	default: {
-		console.log("Incorrect command");
+		console.log("unknown command");
 		break;
 	}
 }
